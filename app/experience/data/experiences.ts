@@ -12,7 +12,7 @@ export const experiences: (Experience & {
     id: '3rdspace',
     company: '3rd Space Social',
     position: 'Software Engineer Intern',
-    duration: 'June 2025 - Present',
+    duration: 'June 2025 - October 2025',
     description: [
       'Building social features and infrastructure for the 3rd Space platform',
       'Collaborating with other developers to build the platform',
@@ -22,8 +22,11 @@ export const experiences: (Experience & {
     icon: IconRocket,
     accentColor: '#6366f1', // Indigo
     achievements: [
-      ' Built the full-stack friends system using the SST framework, Hono, PostgreSQL, React, and Typescript, supporting 1000+ users',
-      'Developed and deployed a scalable chat application leveraging Stream Chat, handling thousands of concurrent connections and monthly users'
+      ' Deployed a full-stack Expo React Native app to AWS using SST infrastructure-as-code, integrating backend'
+  + ' services (Hono API, Drizzle ORM) into serverless cloud infrastructure.',
+      'Built a custom in-app chat using Stream Chat, supporting 100+ real-time concurrent connections to'
++ ' improve event coordination and reduce organizer overhead, after evaluating multiple third-party providers'
+ + ' for scalability and fit.'
     ],
     skills: ['Frontend Development', 'Backend Integration', 'API Design', 'Serverless Deployment'],
     type: 'internship'
@@ -41,9 +44,11 @@ export const experiences: (Experience & {
     icon: IconBrain,
     accentColor: '#10b981', // Emerald
     achievements: [
-      'Developed a data collection and analysis pipeline for NBA play-by-play statistics using Python.',
-      'Created a Java application to normalize and clean NBA play-by-play datasets totaling 6.5+ million rows for further analysis',
-      'Developed an application for structured statistical breakdowns and player analysis using Java.'
+      'Engineered a robust Python–Java pipeline to ingest, normalize, and clean 6.5 million+ rows of NBA play-by-'
+ + ' play data, enabling high-speed, large-scale analysis and accelerating downstream statistical modeling'
++ ' efforts.',
+      'Developed a Java-based application for detailed statistical breakdowns and player-level insights,'
++ ' streamlining analytics workflows, and empowering deeper performance evaluations.',
     ],
     skills: [ 'Data Analysis', 'Apis', 'Data Pipeline'],
     type: 'internship'
